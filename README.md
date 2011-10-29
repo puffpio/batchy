@@ -68,5 +68,5 @@ batchDispatch(batch, access_token, function(response) {
 ### Q : You said it is a Javascript utliity, but it is actually node.js specific. You lied to me! LIES!
 
 I was lazy. It was fast for me to test in node.js so that's what I built it for. There are only two real node.js specific things:
-* querystring.stringify - just a nice feature
-* https.request - actually more cumbersome to use than a jquery.post or something
+ * querystring.stringify - just a nice feature
+ * https.request - actually more cumbersome to use than a jquery.post or something
