@@ -1,6 +1,6 @@
 # batchy
 
-A small utility to help get started with Facebook's Graph API batched request feature
+A small Javscript utility to help get started with Facebook's Graph API batched request feature
 
 ## What problem is batchy solving?
 
@@ -63,3 +63,10 @@ batchDispatch(batch, access_token, function(response) {
 });
 ```
 
+## FAQ
+
+### Q : You said it is a Javascript utliity, but it is actually node.js specific. You lied to me! LIES!
+
+I was lazy. It was fast for me to test in node.js so that's what I built it for. There are only two real node.js specific things:
+1) querystring.stringify - just a nice feature
+2) https.request - actually more cumbersome to use than a jquery.post or something
