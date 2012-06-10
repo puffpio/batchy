@@ -1,6 +1,6 @@
 # batchy
 
-A small Javscript utility to help get started with Facebook's Graph API batched request feature
+A small Javscript utility to help get started with Facebook's Graph API batched request feature.
 
 ## What problem is batchy solving?
 
