@@ -1,12 +1,17 @@
 # batchy
 
+
 A small Javscript utility to help get started with Facebook's Graph API batched request feature
+
 
 ## What problem is batchy solving?
 
+
 Too many connections kills performance. Whether you are a giant social gaming app that makes thousands of connections to third party API's a second, or a HTML5 mobile app that is making tens of connections the same rules apply. 
 
+
 ## What is batchy?
+
 
 batchy attempts to make it easy to reduce the number of connections made to Facebook's Graph API by utilizing its batched request feature. See this page for documentation on the batched request: https://developers.facebook.com/docs/reference/api/batch/
 
@@ -18,7 +23,9 @@ Additionally, batchy allows you to optionally set individual callbacks for each 
 
 Facebook's Graph API batched request allows you to mix GET, POST, and DELETE requests which is awesome, and batchy generalizes things even further by providing a nice params field that is the same regardless of GET or POST. In this manner you don't have to worry about constructing querystring params and appending it to the URL, or constructing a form body.
 
+
 ## Usage
+
 
 ```javascript
 var access_token = 'super duper secret token!~';
@@ -63,7 +70,9 @@ batchDispatch(batch, access_token, function(response) {
 });
 ```
 
+
 ## FAQ
+
 
 ### Q : You said it is a Javascript utliity, but it is actually node.js specific. You lied to me! LIES!
 
